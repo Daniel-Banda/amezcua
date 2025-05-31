@@ -23,7 +23,7 @@
     }
 
     .hero {
-      background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      background: url('./electra.jpeg') center/cover no-repeat;
       color: white;
       padding: 100px 20px;
       text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
@@ -58,6 +58,13 @@
       transform: scale(1.02);
     }
 
+    .card-service img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+
     .footer {
       background-color: var(--oscuro);
       color: white;
@@ -82,7 +89,7 @@
   <!-- Hero -->
   <section class="hero text-center">
     <h1>Expertos en Construcción y Remodelación</h1>
-    <p class="lead">Más de 10 años transformando espacios en obras de calidad</p>
+    <p class="lead" style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: #f9c900;">Más de 10 años transformando espacios en obras de calidad</p>
     <a class="btn-wsp mt-3" href="https://wa.me/523121930731" target="_blank">Habla con nosotros por WhatsApp</a>
   </section>
 
@@ -92,25 +99,25 @@
     <div class="row g-4">
       <div class="col-md-3">
         <div class="card card-service h-100 text-center p-3 shadow-sm">
-          <img src="https://images.unsplash.com/photo-1600566753114-3c0b62b4fd8f?auto=format&fit=crop&w=600&q=80" class="img-fluid mb-3" alt="Construcción">
+          <img src="./casa33.jpeg" class="img-fluid mb-3" alt="Construcción">
           <h5>Construcción Residencial</h5>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card card-service h-100 text-center p-3 shadow-sm">
-          <img src="https://images.unsplash.com/photo-1600369671801-5e3e1f3447db?auto=format&fit=crop&w=600&q=80" class="img-fluid mb-3" alt="Remodelación">
+          <img src="./piso3.jpeg" class="img-fluid mb-3" alt="Remodelación">
           <h5>Remodelaciones</h5>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card card-service h-100 text-center p-3 shadow-sm">
-          <img src="https://images.unsplash.com/photo-1570739281839-e4f3df09d8c5?auto=format&fit=crop&w=600&q=80" class="img-fluid mb-3" alt="Pisos">
+          <img src="./Escaleras.jpeg" class="img-fluid mb-3" alt="Pisos">
           <h5>Colocación de Pisos y Azulejos</h5>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card card-service h-100 text-center p-3 shadow-sm">
-          <img src="https://images.unsplash.com/photo-1590650139867-61f75f87aa9e?auto=format&fit=crop&w=600&q=80" class="img-fluid mb-3" alt="Reparaciones">
+          <img src="./casa22.jpeg" class="img-fluid mb-3" alt="Reparaciones">
           <h5>Reparaciones Generales</h5>
         </div>
       </div>
@@ -122,14 +129,20 @@
     <h2 class="section-title">Algunos de nuestros trabajos</h2>
     <div class="row g-4">
       <div class="col-md-4">
-        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow-sm" alt="Proyecto 1">
+        <img src="./piso1.jpeg" class="img-fluid rounded shadow-sm" alt="Proyecto 1">
       </div>
       <div class="col-md-4">
-        <img src="https://images.unsplash.com/photo-1617093724897-8f71c1c0109e?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow-sm" alt="Proyecto 2">
+        <img src="./piso2.jpeg" class="img-fluid rounded shadow-sm" alt="Proyecto 2">
       </div>
       <div class="col-md-4">
-        <img src="https://images.unsplash.com/photo-1632827936940-b51c2d4421ff?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow-sm" alt="Proyecto 3">
+        <img src="./piso3.jpeg" class="img-fluid rounded shadow-sm" alt="Proyecto 3">
       </div>
+          <div class="col-md-4">
+      <video class="img-fluid rounded shadow-sm" autoplay muted loop playsinline>
+        <source src="./Asotea.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+    </div>
     </div>
   </section>
 
